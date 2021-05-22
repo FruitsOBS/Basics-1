@@ -1,7 +1,8 @@
 #include <iostream>					//Where to start compiling and what library
 
-int Add(int x, int y)					//Takes two interger parameters and returns an integer value.
-
+int Add(int x, int y)					//Takes two interger parameters and returns an integer value. // defining a variable named x and y
+							//Whenever the compiler sees the identifier x, it will know that we’re referencing this variable.
+	
 {
 	std::cout << "In Add(), received " << x << " and " << y << "\n";
 	std::cout << "The value returned is : ";
@@ -18,3 +19,8 @@ int main()						//Start of the program.
 	system("pause > 0");
 	return 0;
 }
+//A value is a single piece of data stored in memory.
+//A variable is a named region of memory. (x or y etc) 
+//An identifier is the name that a variable is accessed by.
+//A type tells the program how to interpret a value in memory.(int,short,char,bool,float,double) ,(defining a variable(width,x etc) using data type double)
+//An integer is a number that can be written without a fractional component. 
