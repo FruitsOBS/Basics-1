@@ -1,17 +1,17 @@
-#include <iostream>
+#include <iostream>					//Where to start compiling and what library
 
-int Add(int x, int y)
+int Add(int x, int y)					//Takes two interger parameters and returns an integer value.
 
 {
 	std::cout << "In Add(), received " << x << " and " << y << "\n";
 	std::cout << "The value returned is : ";
-	return (x + y);
+	return (x + y);					//Parameters x and y are added by the return function
 }
-int main()
+int main()						//Start of the program.
 {
 	std::cout << "I'm in main()!\n";
 	std::cout << "\nCalling Add()\n";
-	std::cout <<  Add (3, 4);
+	std::cout <<  Add (3, 4);			//Initiates function to start ( Line 3 )
 	std::cout << "\nBack in Main().\n";
 	std::cout << "\nExiting...\n\n";
 	
