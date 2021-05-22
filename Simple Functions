@@ -5,7 +5,7 @@ int Add(int x, int y)					//Takes two interger parameters and returns an integer
 {
 	std::cout << "In Add(), received " << x << " and " << y << "\n";
 	std::cout << "The value returned is : ";
-	return (x + y);					//Parameters x and y are added by the return function
+	return (x + y);					//Parameters x and y are added then returned value is 7.
 }
 int main()						//Start of the program.
 {
