@@ -1,16 +1,16 @@
-#include <iostream> //That program will not compile unless you add #include <iostream> or In order to read or write to the standard input/output streams you need to include it.
+#include <iostream> 		// That program will not compile unless you add #include <iostream> or In order to read or write to the standard input/output streams you need to include it.
 
-int main()         // Main() lets the compiler where to start. Int is a value returned to us and indicates whether if the compile is successful or not by returning a 0
-				   // The linker requires that one and only one main() function exist when creating an executable program.
-				   // The compiler expects a main() function in one of the following two forms: 1) int main () { /* body */ } 2) int main (int argc, char *argv[]) { /* body */ }
-				   // int is an integer return type,which will force the compiler to return an integer type value,to the main memory(RAM).
+int main()     			// Main() lets the compiler where to start. Int is a value returned to us and indicates whether if the compile is successful or not by returning a 0
+				// The linker requires that one and only one main() function exist when creating an executable program.
+				// The compiler expects a main() function in one of the following two forms: 1) int main () { /* body */ } 2) int main (int argc, char *argv[]) { /* body */ }
+				// int is an integer return type,which will force the compiler to return an integer type value,to the main memory(RAM).
 {
 				   				   
   
   
-  std::cout << "The size of an int is:\t\t";  		//std::cout allows to be printed as text. cout stands for “character output”
-  std::cout << sizeof (int) << " bytes.\n"; 	        //we use std::cout, along with the insertion operator (<<), to send the text
-  std::cout << "The size of a short int is:\t";
+  std::cout << "The size of an int is:\t\t";  		// std::cout allows to be printed as text. cout stands for “character output”
+  std::cout << sizeof (int) << " bytes.\n"; 	        // we use std::cout, along with the insertion operator (<<), to send the text
+  std::cout << "The size of a short int is:\t";		// sizeof() is used with the data types such as int, float, char
   std::cout << sizeof (short) << " bytes.\n";
   std::cout << "The size of a long int is:\t";
   std::cout <<  sizeof (long) << " bytes.\n";
@@ -20,9 +20,9 @@ int main()         // Main() lets the compiler where to start. Int is a value re
   std::cout <<  sizeof (float) << " bytes.\n";
   std::cout << "The size of a double is:\t";
   std::cout << sizeof (double) << " bytes.\n";
-  system("pause>0"); 					//Makes compiled exe cleaner
-  return 0; // successfull
+  system("pause>0"); 					//Makes compiled exe look cleaner
+  return 0; // successful or not
   }
   
   
-  // sizeof() is used with the data types such as int, float, char
+ 							 
