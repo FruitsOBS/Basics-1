@@ -10,7 +10,7 @@ int main()
 	//Create an unsigned short and initialize with result by multipling width by length.
 	unsigned short int Area = Width * Length;
 	std::cout << "Width: " << Width << "\n";
-	std::cout << "Length: " << Length << std::endl;			//endl creates a new line
+	std::cout << "Length: " << Length << std::endl;				//endl creates a new line
 	std::cout << "Area: " << Area << std::endl;
 	return 0;
 }
@@ -19,7 +19,7 @@ int main()
 /*There are 4 basic ways to initialize variables in C++:
 
 1) int a; // no initializer								
-2) int b = 5; // initializer after equals sign				//copy initialization
+2) int b = 5; // initializer after equals sign					//copy initialization
 3) int c(6); // initializer in parenthesis					//Direct initialization
 4) int d{ 7 }; // initializer in braces						//List initialization
 */
